@@ -43,6 +43,7 @@
         h2 {
             font-size: 28px;
             color: #4A90E2;
+            text-align: center;
         }
 
         h3 {
@@ -50,35 +51,33 @@
             color: #4A90E2;
         }
 
-        ul {
-            line-height: 1.8;
-            font-size: 18px;
-        }
-
         .game-section {
-            margin-bottom: 30px;
+            margin-bottom: 50px;
+            text-align: center;
         }
 
         .game-section img {
             width: 100%;
-            max-width: 800px;
+            max-width: 600px; /* Increased from 400px */
             height: auto;
             border-radius: 8px;
-            margin-top: 20px;
+            margin-top: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
 
-        .cta-buttons a {
+        .cta-button {
             text-decoration: none;
             background-color: #4A90E2;
             color: white;
-            padding: 12px 20px;
+            padding: 14px 24px;
             border-radius: 5px;
-            margin: 10px;
+            margin-top: 15px;
             display: inline-block;
             transition: background-color 0.3s ease;
+            font-size: 20px;
         }
 
-        .cta-buttons a:hover {
+        .cta-button:hover {
             background-color: #357ABD;
         }
 
@@ -118,36 +117,33 @@
     <div class="game-section">
         <h3>Doodle Quest</h3>
         <p>A mixed reality game where you use a magic brush to solve physics-based puzzles in a 3D environment.</p>
-        <img src="./doodle-quest/icon.png" alt="Doodle Quest Game Image">
-        <div class="cta-buttons">
-            <a href="https://www.meta.com/experiences/doodle-quest/your_store_id/" target="_blank">Meta Horizon Store</a>
-            <a href="https://discord.gg/your_discord_invite" target="_blank">Discord</a>
-            <a href="path_to_privacy_policy.html" target="_blank">Privacy Policy</a>
-        </div>
+        <a href="./doodle-quest/index.html">
+            <img src="./doodle-quest/icon.png" alt="Doodle Quest Game Image">
+        </a>
+        <br>
+        <a href="./doodle-quest/index.html" class="cta-button">Learn More</a>
     </div>
 
     <!-- THE LOCK Section -->
     <div class="game-section">
         <h3>THE LOCK: Mixed Reality Puzzle Adventure</h3>
         <p>Embark on a mind-bending adventure with spatial teleportation and intricate puzzles. A game designed to challenge your intellect while exploring the boundary between virtual and real worlds.</p>
-        <img src="./the-lock/icon.jpg" alt="THE LOCK Game Image">
-        <div class="cta-buttons">
-            <a href="https://www.meta.com/experiences/the-lock/your_store_id/" target="_blank">Meta Horizon Store</a>
-            <a href="https://discord.gg/your_discord_invite" target="_blank">Discord</a>
-            <a href="path_to_privacy_policy.html" target="_blank">Privacy Policy</a>
-        </div>
+        <a href="./the-lock/index.html">
+            <img src="./the-lock/icon.jpg" alt="THE LOCK Game Image">
+        </a>
+        <br>
+        <a href="./the-lock/index.html" class="cta-button">Learn More</a>
     </div>
 
     <!-- Rift Hero Section -->
     <div class="game-section">
         <h3>Rift Hero</h3>
-        <p>Become the ultimate hero in a mysterious world where you battle enemies and solve puzzles in mixed reality.</p>
-        <img src="path_to_rift_hero_image.jpg" alt="Rift Hero Game Image">
-        <div class="cta-buttons">
-            <a href="https://www.meta.com/experiences/rift-hero/your_store_id/" target="_blank">Meta Horizon Store</a>
-            <a href="https://discord.gg/your_discord_invite" target="_blank">Discord</a>
-            <a href="path_to_privacy_policy.html" target="_blank">Privacy Policy</a>
-        </div>
+        <p>A rogue-like FPS home defense game designed for mixed reality, featuring home invasion from enemies through different apocalypses.</p>
+        <a href="./rift-hero/index.html">
+            <img src="./rift-hero/icon.png" alt="Rift Hero Game Image">
+        </a>
+        <br>
+        <a href="./rift-hero/index.html" class="cta-button">Learn More</a>
     </div>
 
 </section>
